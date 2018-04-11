@@ -1,0 +1,29 @@
+{
+  "name": "pages-xiv",
+  "version": "1.0.0",
+  "description": "CRUD node app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCapella/pages-xiv.git"
+  },
+  "author": "David Capella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCapella/pages-xiv/issues"
+  },
+  "homepage": "https://github.com/DCapella/pages-xiv#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
